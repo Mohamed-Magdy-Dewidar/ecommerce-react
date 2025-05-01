@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* progress bar */
+
+/* Custom styling for the progress element */
+.progress-bar {
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    appearance: none;
+    width: 70%; /* Full width */
+    height: 20px; /* Height of the progress bar */
+    background-color: #e0e0e0; /* Background color */
+    border-radius: 9999px; /* Fully rounded corners */
+    border: 1px solid #ccc; /* Border for the progress bar */
+}
+
+/* Style the progress indicator */
+.progress-bar::-webkit-progress-bar {
+    background-color: #e0e0e0; /* Background color of the empty progress bar */
+    border-radius: 9999px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #4caf50; /* Color of the progress indicator */
+    border-radius: 9999px;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #4caf50; /* Color of the progress indicator in Firefox */
+    border-radius: 9999px;
+}
+
+.progress-bar::-ms-fill {
+    background-color: #4caf50; /* Color of the progress indicator in IE */
+    border-radius: 9999px;
+}
+
+
+/* MODAL */
+
+
+.modal::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal {
+    min-width: 30rem;;
+    padding: 0;
+    z-index: 2;
+    background: #d5c7bc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    animation: slide-down-fade-in 0.5s ease-out forwards;
+  }
+  
+  @keyframes slide-down-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-up-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+
+
