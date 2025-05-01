@@ -23,16 +23,16 @@ This is a full-featured e-commerce frontend application built with **React.js**,
 ## 🖼️ Screenshots
 
 ### 📦 My Orders Page
-![My Orders Page](assets/images/Orders.png)
+![My Orders Page](src/assets/images/Orders.png)
 
 ### 🧾 Products Page
-![Products Page](assets/images/Products.png)
+![Products Page](src/assets/images/Products.png)
 
 ### 🛍️ Storefront
-![Storefront](assets/images/StoreFront.png)
+![Storefront](src/assets/images/StoreFront.png)
 
 ### 🛒 Cart and Wishlist
-![Cart and Wishlist](assets/images/CartImage.png)
+![Cart and Wishlist](src/assets/images/CartImage.png)
 
 ## 📁 Setup Instructions
 
