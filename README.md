@@ -58,6 +58,10 @@ npm run dev or npm start
 
 ---
 
+## 🌐 Live Demo
+
+Check out the deployed project here: [E-commerce React App](https://Mohamed-Magdy-Dewidar.github.io/ecommerce-react)
+
 ## 📫 Contact
 
 - [LinkedIn](https://www.linkedin.com/in/mohamed-dewidar-546293299)
